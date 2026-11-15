@@ -1,3 +1,6 @@
+# https://github.com/Chayel-Solar/lab11-CS-GH
+# Partner 1: Chayel Solar
+# Partner 2: Grady Harris
 """
 calculator.py
 - Defines functions used to create a simple calculator
