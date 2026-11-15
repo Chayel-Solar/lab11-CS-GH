@@ -8,7 +8,7 @@ import math
 # First example
 
 def square_root(a):
-    if a > 0:
+    if a < 0:
         raise ValueError("Cannot take the square root of a negative number")
     return math.sqrt(a)
 
@@ -21,10 +21,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
-    return a * b
+def mul(a,b):
+    return a*b
 
-def divide(a, b):
+def div(a,b):
     if a == 0:
         raise ZeroDivisionError
     return b/a
@@ -34,5 +34,5 @@ def logarithm(a, b):
         raise ValueError("Invalid logarithmic arguments")
     return math.log(b, a)
 
-def exponent(a, b):
-    return a ** b
+def exp(a, b):
+    return pow(a, b)
